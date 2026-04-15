@@ -9,6 +9,7 @@ const reportRoutes = require('./src/routes/reports');
 const heatmapRoutes = require('./src/routes/heatmap');
 const restaurantRoutes = require('./src/routes/restaurants');
 const userRoutes = require('./src/routes/users');
+const kitchenSafeRoutes = require('./src/routes/kitchenSafe');
 
 const app = express();
 
@@ -31,6 +32,7 @@ app.use('/api/v1/reports', reportRoutes);
 app.use('/api/v1/heatmap', heatmapRoutes);
 app.use('/api/v1/restaurants', restaurantRoutes);
 app.use('/api/v1/users', userRoutes);
+app.use('/api/v1/kitchen', kitchenSafeRoutes);
 
 // Health check
 app.get('/health', (req, res) => res.json({ status: 'ok', service: 'FreshLens API' }));

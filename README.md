@@ -226,3 +226,44 @@ Codeforces Candidate Master | LeetCode Guardian
 ## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
+## 🏥 KitchenSafe — Solving the Verified Kitchen Safety Gap
+
+> **Problem identified on Razorpay Fix My Itch** (Itch Score: 89/100, Frequency: 9/10)
+> *"Why can't consumers see verified kitchen safety standards on food delivery apps?"*
+
+Consumers order from 4.5★ restaurants cooked in unverified kitchens with zero health inspection visibility. FreshLens solves this with **KitchenSafe**.
+
+### KitchenSafe Score System
+
+| Badge | Score | Meaning |
+|-------|-------|---------|
+| 🟢 GREEN | 80–100 | Safe — no violations reported |
+| 🟡 YELLOW | 50–79 | Caution — minor violations |
+| 🔴 RED | 20–49 | Unsafe — serious violations |
+| ⛔ BLACKLISTED | 0–19 | Avoid — critical hygiene failures |
+| ⚪ UNVERIFIED | — | No community data yet |
+
+### Violation Types Tracked
+- Dirty/damaged packaging
+- Visible contamination
+- Tampered food seal
+- Foreign objects in food
+- Temperature abuse (hot food delivered cold)
+- Pest evidence
+- Unhygienic handling visible
+
+### FSSAI License Verification
+- Real-time lookup against **FSSAI FOSCOS public registry**
+- Checks license validity, expiry, and suspension status
+- Shown on every restaurant card in the app
+
+### API Endpoints
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/v1/kitchen/report` | Submit hygiene violation + photo |
+| GET | `/api/v1/kitchen/score/:restaurantId` | Get KitchenSafe score + badge |
+| GET | `/api/v1/kitchen/reports/:restaurantId` | All verified violations |
+| POST | `/api/v1/kitchen/fssai-lookup` | Verify FSSAI license number |
