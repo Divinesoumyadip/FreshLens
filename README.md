@@ -10,6 +10,7 @@
 [![API Status](https://img.shields.io/badge/API-Live%20on%20Render-success)](https://freshlens-api.onrender.com/health)
 
 > An AI-powered Android app that brings complete transparency to food ordering — detecting fake photos, estimating nutrition, exposing review fraud, and protecting consumers with **8 on-device ML models** + a **Node.js/Firebase backend**.
+<img width="385" height="654" alt="image" src="https://github.com/user-attachments/assets/96b2a564-8886-4e11-8555-9dd337efb357" />
 
 ---
 
@@ -54,6 +55,10 @@ Every day, millions of people order food and face:
 ## 📱 Features
 
 ### 📸 FoodScan
+
+
+<img width="315" height="706" alt="image" src="https://github.com/user-attachments/assets/ebdcd833-49ba-4731-a18e-47881bbf864d" />
+
 ```
 Point camera at any dish →
 • Authenticity score (REAL / SUSPECT / FAKE badge)
@@ -66,6 +71,8 @@ Point camera at any dish →
 ```
 
 ### 🛡️ ReviewGuard
+
+
 ```
 Paste restaurant reviews →
 • % genuine vs bot-written reviews
@@ -75,6 +82,9 @@ Paste restaurant reviews →
 ```
 
 ### 🗺️ FraudHeatMap
+
+<img width="305" height="652" alt="image" src="https://github.com/user-attachments/assets/62d41ea2-07db-47b4-a0ae-b889db500ea5" />
+
 ```
 City-wide fraud visualization →
 • Areas with highest food fraud reports
@@ -84,6 +94,9 @@ City-wide fraud visualization →
 ```
 
 ### 🏥 KitchenSafe *(New — Razorpay Itch #89)*
+
+<img width="319" height="691" alt="image" src="https://github.com/user-attachments/assets/aff41390-d3bf-49cc-bd0e-2446424ac9a5" />
+
 ```
 Kitchen transparency layer →
 • GREEN / YELLOW / RED / BLACKLISTED badge
