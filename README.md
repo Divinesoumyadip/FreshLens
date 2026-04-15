@@ -1,20 +1,14 @@
 # 🍽️ FreshLens
 ### *See Your Food. Know Your Truth.*
 
-[![Android](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)](https://android.com)
-[![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
-[![TFLite](https://img.shields.io/badge/ML-TensorFlow%20Lite-FF6F00?logo=tensorflow&logoColor=white)](https://tensorflow.org/lite)
-[![Firebase](https://img.shields.io/badge/Backend-Firebase-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com)
-[![Node.js](https://img.shields.io/badge/API-Node.js-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
-[![API Status](https://img.shields.io/badge/API-Live%20on%20Render-success)](https://freshlens-api.onrender.com/health)
+
 
 > An AI-powered Android app that brings complete transparency to food ordering — detecting fake photos, estimating nutrition, exposing review fraud, and protecting consumers with **8 on-device ML models** + a **Node.js/Firebase backend**.
 <img width="385" height="654" alt="image" src="https://github.com/user-attachments/assets/96b2a564-8886-4e11-8555-9dd337efb357" />
 
 ---
 
-## 🚨 The Problem (Validated)
+##  The Problem (Validated)
 
 > **Razorpay Fix My Itch** — *"Why can't consumers see verified kitchen safety standards on food delivery apps?"*
 > Itch Score: **89/100** | Frequency: **9/10** | TAM: **70/10** | Whitespace: **8.5/10**
@@ -35,7 +29,7 @@ Every day, millions of people order food and face:
 
 ---
 
-## 🤖 8 On-Device ML Models
+##  8 On-Device ML Models
 
 | Model | Architecture | Task | Accuracy | Size |
 |-------|-------------|------|----------|------|
@@ -52,9 +46,9 @@ Every day, millions of people order food and face:
 
 ---
 
-## 📱 Features
+##  Features
 
-### 📸 FoodScan
+###  FoodScan
 
 
 <img width="315" height="706" alt="image" src="https://github.com/user-attachments/assets/ebdcd833-49ba-4731-a18e-47881bbf864d" />
@@ -70,7 +64,7 @@ Point camera at any dish →
 • KitchenSafe score of the restaurant
 ```
 
-### 🛡️ ReviewGuard
+###  ReviewGuard
 
 
 ```
@@ -81,7 +75,7 @@ Paste restaurant reviews →
 • Key fraud signals highlighted
 ```
 
-### 🗺️ FraudHeatMap
+###  FraudHeatMap
 
 <img width="305" height="652" alt="image" src="https://github.com/user-attachments/assets/62d41ea2-07db-47b4-a0ae-b889db500ea5" />
 
@@ -93,7 +87,7 @@ City-wide fraud visualization →
 • Real-time Firestore updates
 ```
 
-### 🏥 KitchenSafe *(New — Razorpay Itch #89)*
+###  KitchenSafe *(New — Razorpay Itch #89)*
 
 <img width="319" height="691" alt="image" src="https://github.com/user-attachments/assets/aff41390-d3bf-49cc-bd0e-2446424ac9a5" />
 
@@ -108,7 +102,7 @@ Kitchen transparency layer →
 
 ---
 
-## 🏥 KitchenSafe — Solving the Verified Kitchen Safety Gap
+##  KitchenSafe — Solving the Verified Kitchen Safety Gap
 
 > Directly addresses: **Razorpay Fix My Itch — Itch Score 89/100**
 > *"Consumers order from 4.5★ restaurants cooked in unverified kitchens with zero safety visibility"*
@@ -136,9 +130,9 @@ Kitchen transparency layer →
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-### 📱 Android App
+###  Android App
 | Layer | Technology |
 |-------|-----------|
 | Language | Kotlin |
@@ -152,7 +146,7 @@ Kitchen transparency layer →
 | Maps | Google Maps SDK + Compose Maps |
 | Image Loading | Coil |
 
-### 🤖 ML/AI
+###  ML/AI
 | Component | Technology |
 |-----------|-----------|
 | On-Device Inference | TensorFlow Lite (INT8 quantized) |
@@ -164,7 +158,7 @@ Kitchen transparency layer →
 | Training | Google Colab T4 GPU |
 | Experiment Tracking | Weights & Biases |
 
-### ☁️ Backend & Cloud
+###  Backend & Cloud
 | Component | Technology |
 |-----------|-----------|
 | API Runtime | Node.js + Express |
@@ -178,7 +172,7 @@ Kitchen transparency layer →
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 FreshLens/
@@ -221,7 +215,7 @@ FreshLens/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Android App
 ```bash
@@ -258,7 +252,7 @@ node index.js
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 Base URL: `https://freshlens-api.onrender.com/api/v1`
 
@@ -278,7 +272,7 @@ Base URL: `https://freshlens-api.onrender.com/api/v1`
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────┐
@@ -308,7 +302,7 @@ Base URL: `https://freshlens-api.onrender.com/api/v1`
 
 ---
 
-## 📊 ML Pipeline
+##  ML Pipeline
 
 ```
 Food-101 Dataset (101k images)
@@ -328,7 +322,7 @@ Food-101 Dataset (101k images)
 
 ---
 
-## 🎯 Impact & Market
+##  Impact & Market
 
 - **500M+ food delivery users** in India (Swiggy + Zomato combined)
 - **Privacy-first** — all ML runs on-device, zero data sent to servers
