@@ -325,14 +325,6 @@ Food-101 Dataset (101k images)
 
 ---
 
-## 👨‍💻 Author
-
-**Soumyadip Das Mahapatra** — [@Divinesoumyadip](https://github.com/Divinesoumyadip)
-
-B.Tech Computer Science | JIS University Kolkata
-Codeforces Candidate Master | LeetCode Guardian (2337) | 2x ICPC Asia Regionalist
-
----
 
 ## 📄 License
 
